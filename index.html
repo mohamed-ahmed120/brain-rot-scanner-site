@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="Brain Rot Scanner — a character recognition companion for PUBG players.">
+  <title>Brain Rot Scanner</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101827;
+      color: #f4f7fb;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 22px 7%;
+      border-bottom: 1px solid #29364a;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 21px;
+      font-weight: bold;
+      color: #69e6b1;
+    }
+
+    nav a {
+      color: #d5deeb;
+      text-decoration: none;
+      margin-left: 18px;
+    }
+
+    .hero {
+      max-width: 900px;
+      margin: 85px auto;
+      padding: 0 22px;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 5px 14px;
+      border: 1px solid #315b50;
+      border-radius: 30px;
+      color: #69e6b1;
+      font-size: 13px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 7vw, 66px);
+      line-height: 1.15;
+      margin: 24px 0;
+    }
+
+    h1 span {
+      color: #69e6b1;
+    }
+
+    .description {
+      max-width: 650px;
+      margin: 0 auto;
+      color: #bac6d8;
+      font-size: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 13px 25px;
+      border-radius: 9px;
+      background: #69e6b1;
+      color: #101827;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .notice {
+      margin: 18px auto 0;
+      color: #9eacc0;
+      font-size: 13px;
+    }
+
+    .features {
+      max-width: 1000px;
+      margin: 0 auto 80px;
+      padding: 0 22px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      padding: 24px;
+      border: 1px solid #29364a;
+      border-radius: 14px;
+      background: #172235;
+    }
+
+    .card h2 {
+      color: #69e6b1;
+      font-size: 19px;
+    }
+
+    .card p {
+      color: #bac6d8;
+    }
+
+    footer {
+      padding: 28px 20px;
+      text-align: center;
+      border-top: 1px solid #29364a;
+      color: #9eacc0;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #69e6b1;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">Brain Rot Scanner</div>
+
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#download">Download</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="badge">Built for PUBG players</div>
+
+      <h1>Meet your next<br><span>gaming companion.</span></h1>
+
+      <p class="description">
+        Brain Rot Scanner is an Android application designed to help
+        PUBG players recognize supported characters using reference images.
+      </p>
+
+      <div id="download">
+        <a class="button" href="#download">Android Download — Coming Soon</a>
+        <p class="notice">
+          The official download will be published here after release checks.
+        </p>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <article class="card">
+        <h2>Character Recognition</h2>
+        <p>
+          Designed to identify supported characters using their configured
+          reference images.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>Designed for Android</h2>
+        <p>
+          Built for Android devices, with a focus on a simple and practical
+          experience for players.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>Official Updates</h2>
+        <p>
+          Visit this page for official release information and future
+          download availability.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Brain Rot Scanner</p>
+    <p>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="mailto:brainrotscanner.support@gmail.com">Contact</a>
+    </p>
+    <p>
+      Brain Rot Scanner is an independent project and is not affiliated
+      with or endorsed by PUBG or its publishers.
+    </p>
+    <p>© 2026 Brain Rot Scanner</p>
+  </footer>
+</body>
+</html>
